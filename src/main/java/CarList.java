@@ -4,6 +4,8 @@ public interface CarList {
 
     boolean getInfo (Car car);
 
+    void add (Car car, int index);
+
     void add(Car car);
 
     boolean remove(Car car);
